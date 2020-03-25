@@ -8,3 +8,6 @@ sudo mv terraform /usr/local/bin/
 terraform --version 
 gcloud version
 gcloud init
+1
+1
+
