@@ -7,8 +7,4 @@ unzip terraform_0.12.0_linux_amd64.zip
 sudo mv terraform /usr/local/bin/ 
 terraform --version 
 gcloud version
-gcloud init
-send "1\r"
-send "1\r"
-send "yes\r" 
-send "7\r"
+
