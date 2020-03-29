@@ -8,8 +8,10 @@ sudo mv terraform /usr/local/bin/
 terraform --version 
 gcloud version
 cd ~/.ssh
+ssh-keygen -P " "
 ls
-cat authorized_keys
+#cat authorized_keys
+
 
 
 
