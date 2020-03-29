@@ -6,12 +6,6 @@ provider "google" {
   
 }
 
-resource "google_service_account" "service_account" {
-  account_id   = "terraform@ishaqgcpproject.iam.gserviceaccount.com"
-  display_name = "terraform"
-}
-
-
 resource "google_compute_instance" "vm-instance" {
   name         = "standard-gce-vm"
   machine_type = "f1-micro"
