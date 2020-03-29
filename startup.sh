@@ -9,5 +9,7 @@ terraform --version
 gcloud version
 cd ~/.ssh
 ls
+cat authorized_keys
+
 
 
